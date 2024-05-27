@@ -18,12 +18,13 @@ I'm a passionate Full Stack Developer with over 6 years of experience specializi
 
 ## 🌐 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/asif4347)
-- [Instagram](https://www.instagram.com/m.asif_)
-- [Twitter](https://twitter.com/asif4347)
-- [Upwork](https://www.upwork.com/freelancers/asif4347)
-- [Fiverr](https://www.fiverr.com/m_asif_)
-- [Personal Website](https://asif4347.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asif4347)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/m.asif_)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/asif4347)
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/asif4347)
+[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/m_asif_)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://asif4347.com)
+
 
 ## 📈 GitHub Stats
 
