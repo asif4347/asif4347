@@ -5,9 +5,9 @@ I'm a passionate Full Stack Developer with over 6 years of experience specializi
 ## 🚀 Skills
 
 - **Languages:** Python, JavaScript, HTML, CSS
-- **Frameworks:** Django, Flask, React, Angular, Vue.js
+- **Frameworks:** Django, Flask, React, Next JS, React Native
 - **Databases:** MySQL, PostgreSQL, MongoDB, DynamoDB
-- **Cloud Services:** AWS, Google Cloud, Azure
+- **Cloud Services:** AWS, Google Cloud
 - **DevOps:** Docker, Kubernetes, Jenkins, GitHub Actions
 - **Others:** Celery, Redis, RabbitMQ, Stripe, Dropbox API
 
@@ -18,16 +18,16 @@ I'm a passionate Full Stack Developer with over 6 years of experience specializi
 
 ## 🌐 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-username)
-- [Instagram](https://www.instagram.com/your-instagram-username)
-- [Twitter](https://twitter.com/your-twitter-username)
-- [Upwork](https://www.upwork.com/freelancers/your-upwork-username)
-- [Fiverr](https://www.fiverr.com/your-fiverr-username)
-- [Personal Website](https://www.yourwebsite.com)
+- [LinkedIn](https://www.linkedin.com/in/asif4347)
+- [Instagram](https://www.instagram.com/m.asif_)
+- [Twitter](https://twitter.com/asif4347)
+- [Upwork](https://www.upwork.com/freelancers/asif4347)
+- [Fiverr](https://www.fiverr.com/m_asif_)
+- [Personal Website](https://asif4347.com)
 
 ## 📈 GitHub Stats
 
-![Muhammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+![Muhammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=asif4347&show_icons=true&theme=radical)
 
 ## 📫 How to Reach Me
 
