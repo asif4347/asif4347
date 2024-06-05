@@ -26,10 +26,6 @@ I'm a passionate Full Stack Developer with over 6 years of experience specializi
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://asif4347.com)
 
 
-## 📈 GitHub Stats
-
-![Muhammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=asif4347&show_icons=true&theme=radical)
-
 ## 📫 How to Reach Me
 
 Feel free to reach out to me through any of the platforms above. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
