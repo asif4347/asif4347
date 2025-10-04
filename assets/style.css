@@ -22,6 +22,70 @@
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Dark Mode Variables */
+.dark {
+    --primary-color: #3b82f6;
+    --secondary-color: #1d4ed8;
+    --accent-color: #06b6d4;
+    --dark-bg: #0f172a;
+    --light-bg: #1e293b;
+    --text-dark: #f8fafc;
+    --text-light: #cbd5e1;
+    --success-color: #10b981;
+    --gradient-1: linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%);
+    --gradient-2: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark Mode Overrides */
+.dark .navbar {
+    background: rgba(15, 23, 42, 0.95);
+}
+
+.dark .nav-link {
+    color: var(--text-dark);
+}
+
+.dark .stat-card,
+.dark .skill-category,
+.dark .timeline-item,
+.dark .project-card,
+.dark .award-card,
+.dark .filter-btn,
+.dark .nav-menu,
+.dark .card {
+    background: var(--light-bg);
+    color: var(--text-dark);
+}
+
+.dark .project-header {
+    background: var(--gradient-2);
+}
+
+.dark .tech-tag {
+    background: rgba(59, 130, 246, 0.2);
+    color: var(--accent-color);
+}
+
+.dark .projects-section {
+    background: var(--dark-bg);
+}
+
+.dark .contact-section {
+    background: var(--dark-bg);
+}
+
+.dark .footer {
+    background: #020617;
+}
+
+.dark .filter-btn {
+    border-color: var(--text-light);
+}
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -140,6 +204,30 @@ a:hover {
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--text-dark);
+}
+
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-dark);
+    transition: var(--transition);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.dark-mode-toggle:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: var(--primary-color);
+}
+
+.dark .dark-mode-toggle {
+    color: var(--text-dark);
+}
+
+.dark .dark-mode-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* Hero Section */
@@ -570,7 +658,7 @@ a:hover {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
@@ -582,6 +670,7 @@ a:hover {
     transition: var(--transition);
     display: flex;
     flex-direction: column;
+    min-height: 450px;
 }
 
 .project-card:hover {
@@ -691,7 +780,75 @@ a:hover {
     background: var(--gradient-2);
 }
 
+.award-card::after {
+    content: 'AWARD';
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background: var(--primary-color);
+    color: white;
+    padding: 5px 40px;
+    transform: rotate(45deg);
+    font-size: 0.75rem;
+    font-weight: bold;
+    box-shadow: var(--shadow-sm);
+}
+
+.certification::after {
+    content: 'CERTIFICATE';
+    background: var(--accent-color);
+}
+
+
+
+
+
 .award-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+/* Simple CARD */
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--gradient-2);
+}
+
+/* .card::after {
+    content: 'AWARD';
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background: var(--primary-color);
+    color: white;
+    padding: 5px 40px;
+    transform: rotate(45deg);
+    font-size: 0.75rem;
+    font-weight: bold;
+    box-shadow: var(--shadow-sm);
+} */
+
+
+
+
+
+.card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
 }
@@ -769,10 +926,14 @@ a:hover {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    display: flex;
+    justify-content: center;
     margin-top: 3rem;
+}
+
+.contact-info {
+    max-width: 600px;
+    width: 100%;
 }
 
 .contact-info {
@@ -872,33 +1033,30 @@ textarea.form-control {
     color: var(--accent-color);
 }
 
-/* Scroll to Top Button */
-.scroll-top {
+/* Toast Notification */
+.toast {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 50px;
-    height: 50px;
-    background: var(--gradient-2);
+    bottom: 20px;
+    right: 20px;
+    background: var(--success-color);
     color: white;
-    border: none;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
     box-shadow: var(--shadow-lg);
     opacity: 0;
     visibility: hidden;
     transition: var(--transition);
-    z-index: 999;
+    z-index: 10000;
+    max-width: 300px;
 }
 
-.scroll-top.visible {
+.toast.show {
     opacity: 1;
     visibility: visible;
 }
 
-.scroll-top:hover {
-    transform: translateY(-5px);
+.toast.error {
+    background: #ef4444;
 }
 
 /* Responsive Design */
@@ -937,8 +1095,7 @@ textarea.form-control {
         font-size: 1.2rem;
     }
     
-    .about-content,
-    .contact-content {
+    .about-content {
         grid-template-columns: 1fr;
     }
     
