@@ -172,8 +172,20 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // ===========================
-    // Contact Form
+    // Toast Notification
     // ===========================
+    function showToast(message, type = 'success') {
+        const toast = document.getElementById('toast');
+        if (!toast) return;
+        
+        toast.textContent = message;
+        toast.className = `toast ${type}`;
+        toast.classList.add('show');
+        
+        setTimeout(() => {
+            toast.classList.remove('show');
+        }, 4000);
+    }
     const contactForm = document.getElementById('contactForm');
     
     if (contactForm) {
@@ -181,10 +193,23 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             
             // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+            
+            // Basic validation
+            if (!name || !email || !subject || !message) {
+                showToast('Please fill in all fields.', 'error');
+                return;
+            }
+            
+            // Simple email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showToast('Please enter a valid email address.', 'error');
+                return;
+            }
             
             // Create mailto link
             const mailtoLink = `mailto:moh.asif4347@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
@@ -193,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = mailtoLink;
             
             // Show success message
-            alert('Thank you for your message! Your email client will open shortly.');
+            showToast('Thank you for your message! Your email client will open shortly.', 'success');
             
             // Reset form
             contactForm.reset();
@@ -336,7 +361,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // ===========================
-    // Dark Mode Toggle (Optional - can be enabled)
+    // Dark Mode Toggle
     // ===========================
     function initDarkMode() {
         const darkModeToggle = document.getElementById('darkModeToggle');
@@ -345,18 +370,33 @@ document.addEventListener('DOMContentLoaded', function() {
         // Check for saved preference
         const darkMode = localStorage.getItem('darkMode');
         if (darkMode === 'enabled') {
-            document.body.classList.add('dark-mode');
+            document.body.classList.add('dark');
+            updateDarkModeIcon(true);
         }
         
         darkModeToggle.addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.toggle('dark');
+            updateDarkModeIcon(isDark);
             
-            if (document.body.classList.contains('dark-mode')) {
+            if (isDark) {
                 localStorage.setItem('darkMode', 'enabled');
             } else {
                 localStorage.setItem('darkMode', 'disabled');
             }
         });
+    }
+    
+    function updateDarkModeIcon(isDark) {
+        const icon = document.querySelector('#darkModeToggle i');
+        if (icon) {
+            if (isDark) {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            }
+        }
     }
     
     // Initialize dark mode if toggle exists
