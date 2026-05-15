@@ -26,10 +26,6 @@ export default function ContactSection() {
                         <div className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.06] p-5">
                             <MapPin className="h-6 w-6 text-red-300" /><div><div className="text-xs text-white/45">Location</div><span className="font-bold">Lahore, Pakistan</span></div>
                         </div>
-                        <a href="https://asif4347.com" target="_blank" rel="noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.06] p-5 hover:bg-white/[0.1]">
-                            <div className="flex items-center gap-4"><Globe className="h-6 w-6 text-red-300" /><div><div className="text-xs text-white/45">Website</div><span className="font-bold">asif4347.com</span></div></div>
-                            <ExternalLink className="h-5 w-5 text-white/40 group-hover:text-white" />
-                        </a>
                         <a href="https://www.linkedin.com/in/muhammad-asif-bscs" target="_blank" rel="noreferrer" className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.06] p-5 hover:bg-white/[0.1]">
                             <div className="flex items-center gap-4"><Linkedin className="h-6 w-6 text-red-300" /><span className="font-bold">LinkedIn Profile</span></div>
                             <ExternalLink className="h-5 w-5 text-white/40 group-hover:text-white" />

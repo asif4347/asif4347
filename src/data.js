@@ -227,7 +227,6 @@ export const contactInfo = [
     { icon: "mail", label: "Email", value: "moh.asif4347@gmail.com", href: "mailto:moh.asif4347@gmail.com" },
     { icon: "phone", label: "Phone", value: "+92 321 8337902", href: "tel:+923218337902" },
     { icon: "location", label: "Location", value: "Lahore, Pakistan", href: null },
-    { icon: "globe", label: "Website", value: "asif4347.com", href: "https://asif4347.com" },
 ];
 
 export const stack = [

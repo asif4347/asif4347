@@ -2,7 +2,7 @@
 
 CEO – A2k Solutions LLC | Director of Software Engineering – Datamart Inc
 Full-Stack & AI Systems Architect | 7+ Years in SaaS, Cloud, and AI Development
-📍 Lahore, Pakistan | 🌐 asif4347.com | 💼 github.com/asif4347 | 🔗 linkedin.com/in/asif4347
+📍 Lahore, Pakistan | 🌐 asif.engineer | 💼 github.com/asif4347 | 🔗 linkedin.com/in/asif4347
 
 ⸻
 

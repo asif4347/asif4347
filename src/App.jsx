@@ -119,7 +119,7 @@ export default function MuhammadAsifPortfolio() {
                         <div className="flex gap-6">
                             <a href="https://linkedin.com/in/asif4347" target="_blank" rel="noreferrer" className="text-sm text-white/40 hover:text-white">LinkedIn</a>
                             <a href="https://github.com/asif4347" target="_blank" rel="noreferrer" className="text-sm text-white/40 hover:text-white">GitHub</a>
-                            <a href="https://asif4347.com" target="_blank" rel="noreferrer" className="text-sm text-white/40 hover:text-white">Website</a>
+                            <a href="https://asif.engineer" target="_blank" rel="noreferrer" className="text-sm text-white/40 hover:text-white">Website</a>
                         </div>
                     </div>
                 </div>
