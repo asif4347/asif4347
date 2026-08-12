@@ -1,122 +1,90 @@
-# Hi there, I'm Muhammad Asif 👋
+<div align="center">
 
-I'm a passionate Full Stack Developer with years of experience specializing in Python Django web development and Cloud services. I thrive on building scalable and efficient applications that solve real-world problems.
+# Muhammad Asif
 
-## 🚀 Skills
+### Founder & CEO, RubyOrbit · CEO, Datamart Inc.
 
-- **Languages:** Python, JavaScript, HTML, CSS
-- **Frameworks:** Django, Flask, React, Next JS, React Native
-- **Databases:** MySQL, PostgreSQL, MongoDB, DynamoDB
-- **Cloud Services:** AWS, Google Cloud
-- **DevOps:** Docker, Kubernetes, Jenkins, GitHub Actions
-- **Others:** Celery, Redis, RabbitMQ, Stripe, Dropbox API
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=20&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=I+build+AI+systems+that+turn+messy+operations+into+revenue+engines.;10-plus+years+shipping+full-stack+and+AI+products.;Currently+building+RubyOrbit%2C+AI+for+real+estate+teams." alt="Typing SVG" />
 
-## Projects
+[![Website](https://img.shields.io/badge/asif.engineer-2F81F7?style=flat-square&logo=googlechrome&logoColor=white)](https://asif.engineer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asif4347)
+[![Email](https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white)](mailto:asif@rubyorbit.com)
+![Location](https://img.shields.io/badge/Lahore%2C_Pakistan-333333?style=flat-square&logo=mapbox&logoColor=white)
 
-### Conversion Monster Integration (CMI)
-- **Description:** Middleware solution developed to automate CRM data synchronization across multiple platforms, enhancing lead management with real-time filtering and tagging.
-- **Technologies:** Python, Django, Docker, Google Cloud Platform (GCP)
-- **Role:** Lead Developer and System Architect
-- **Highlights:**
-  - Achieved seamless data exchange, handling over 300 requests per second with millisecond response times.
-  - Implemented advanced filtering and tagging mechanisms to categorize leads effectively.
+</div>
 
-### PocketISAi
-- **Description:** An AI-driven CRM tool utilizing OpenAI’s GPT-4 to automate communication with real estate leads, mimicking human interactions to boost engagement and conversion rates.
-- **Technologies:** Python, Django, OpenAI GPT-4, React Native
-- **Role:** Project Lead, AI Specialist
-- **Highlights:**
-  - Trained AI model on over 50,000 real estate conversations for high accuracy.
-  - Integrated AI functionalities to enhance operational efficiency and lead management.
+<br/>
 
-### Elite Med Labs Middleware (EML)
-- **Description:** Middleware solution to automate the exchange of HL7 messages between medical laboratories, integrating comprehensive portals for doctors, admins, and patients.
-- **Technologies:** Python, Django, AWS S3, Lambda
-- **Role:** Backend Developer, System Integrator
-- **Highlights:**
-  - Streamlined lab operations by automating critical processes.
-  - Enhanced data accuracy and reduced manual entry errors.
+## About
 
-### LimouCloud
-- **Description:** A cloud-based platform with an integrated accounting suite, GPS tracking, and reservation management for the transportation industry.
-- **Technologies:** Python, Django, AWS, React
-- **Role:** Software Architect, Lead Developer
-- **Highlights:**
-  - Developed real-time GPS tracking functionalities for fleet management.
-  - Created a financial management module for tracking revenue and expenses.
+I'm a full-stack and AI systems architect. I design, build, and scale SaaS products, automation platforms, and cloud-native systems for teams in real estate, healthcare, logistics, fintech, and ecommerce.
 
-### Facespace AI
-- **Description:** AI-based system using AWS Rekognition to automatically classify images by recognizing faces, aiding photographers in managing large image sets.
-- **Technologies:** Python, Django, AWS Rekognition
-- **Role:** AI Developer, Cloud Solutions Architect
-- **Highlights:**
-  - Implemented facial recognition technology for efficient image categorization.
-  - Managed scalable cloud storage solutions for high-resolution images.
+Right now I split my time between running **Datamart Inc.**, a California software company, and building **RubyOrbit**, an AI revenue execution engine for real estate teams, built on an analysis of 69M CRM events.
 
-### Reviood
-- **Description:** A social platform for food enthusiasts to discover, review, and share insights about local food and eateries.
-- **Technologies:** Python, Django, React, PostgreSQL
-- **Role:** Full Stack Developer
-- **Highlights:**
-  - Developed interactive features for user engagement, including reviews and ratings.
-  - Implemented geolocation features for discovering nearby eateries.
+<div align="center">
 
-### Uncover Qatar Mobile App APIs
-- **Description:** Developed APIs for a mobile app providing insights and information about locations in Qatar.
-- **Technologies:** Python, Django, REST API
-- **Role:** API Developer
-- **Highlights:**
-  - Enhanced user experience by providing seamless access to local information.
+| 10+ | 50+ | 20+ | 5 |
+|:---:|:---:|:---:|:---:|
+| Years experience | Projects shipped | Engineers led | Leadership roles |
 
-### 5krun Events
-- **Description:** Python Django-based app for remote runners, offering web and mobile APIs for event participation.
-- **Technologies:** Python, Django, React Native
-- **Role:** Full Stack Developer
-- **Highlights:**
-  - Facilitated virtual running events, enhancing participant engagement and event management.
+</div>
 
-### UK Airport Parking Business Project
-- **Description:** Custom software solution for managing airport parking services, enhancing booking and management processes.
-- **Technologies:** Python, Django, React
-- **Role:** Software Developer
-- **Highlights:**
-  - Improved booking efficiency and customer service, streamlining parking operations.
+## Building now
 
-### McCarthys POS System
-- **Description:** Developed a point-of-sale system to streamline order processing and inventory management for an American restaurant.
-- **Technologies:** Python, Django, PostgreSQL
-- **Role:** Full Stack Developer
-- **Highlights:**
-  - Enhanced operational efficiency, reducing wait times and improving service quality.
+**[RubyOrbit](https://asif.engineer)** is an AI-powered CRM and lead management platform for real estate teams. AI chat and call agents engage leads automatically, a RAG pipeline grounds responses in real data, and a campaign builder tracks it all on one dashboard.
 
-### Online Real-time Proctoring System
-- **Description:** Real-time proctoring system featuring cam, screen, and audio monitoring using WebRTC and AWS.
-- **Technologies:** Python, Django, WebRTC, AWS S3, EC2
-- **Role:** Full Stack Developer
-- **Highlights:**
-  - Ensured secure and reliable online examinations, maintaining academic integrity.
+`Python` `Django` `OpenAI GPT-4` `React` `Zapier`
 
-### CAP Project for Stock Market Monetization
-- **Description:** Developed an application for real-time stock market analysis and financial insights, supporting monetization strategies.
-- **Technologies:** Python, Django, Machine Learning
-- **Role:** Data Scientist, Developer
-- **Highlights:**
-  - Enabled data-driven decision-making, enhancing trading strategies and profitability.
+## Stack
 
-## 🌐 Connect with Me
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,django,fastapi,flask,nodejs,react,nextjs,vue,angular,ts,js,aws,docker,kubernetes,postgres,mysql,mongodb,redis,supabase,git&theme=dark" />
+</div>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asif4347)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/m.asif_)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/asif4347)
-[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/asif4347)
-[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/m_asif_)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://asif.engineer)
+**AI:** OpenAI GPT-4/4o · LangChain · RAG pipelines · Pinecone · n8n · Hume AI
+**Cloud & DevOps:** AWS · GCP · Docker · Kubernetes · GitHub Actions · Jenkins · Cloudflare
+**Mobile:** React Native · FlutterFlow · Expo
 
+## Featured projects
 
-## 📫 How to Reach Me
+| Project | What it does | Stack |
+|---|---|---|
+| **RubyOrbit (SmartLinkx)** | AI CRM and lead management SaaS for real estate | Python, Django, GPT-4, React |
+| **PocketISAi** | AI mobile ISA that automates real estate lead conversations, trained on 50K+ real conversations | Python, Django, GPT-4, React Native |
+| **LimouCloud** | AI-enabled reservation and dispatch SaaS for transportation, with live GPS fleet tracking | Python, Django, AWS, React |
+| **Elite Med Labs** | Middleware automating HL7 message exchange between labs, doctors, and patient portals | Python, Django, AWS Lambda |
+| **Wellgevity AI** | AI-powered wellness and longevity platform | Python, Django, OpenAI |
+| **Conversion Monster (CMI)** | CRM sync middleware handling 5M+ records a day across 35+ CRMs at 300+ req/s | Python, Django, Docker, GCP |
 
-Feel free to reach out to me through any of the platforms above. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+More case studies at [asif.engineer](https://asif.engineer).
 
----
+## Experience
 
-Let's build something amazing together!
+| Period | Role |
+|---|---|
+| 2024–Present | **CEO, Datamart Inc.** (California). Leading 20+ engineers across AI, backend, and cloud; architected the GCP/Kubernetes migration. |
+| 2024–2025 | **Project Manager, Software & DevOps**, Axion Communications |
+| 2020–2024 | **CTO**, A2K Solutions. Built a multinational software company across Pakistan, the US, and UAE; delivered 50+ projects. |
+| 2020–2022 | **Full Stack Developer**, Datamart Inc. Built Conversion Monster Integration. |
+| 2017–2020 | **Web Developer**, Novatore Solutions / Trodo Soft |
+
+## Awards
+
+- **Young Business Leader of the Year 2024**, Forttuna Global Excellence Awards (Dubai)
+- **Forttuna 2025 PowerList 100**, global recognition in AI and software architecture
+
+## Activity
+
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=asif4347&theme=dark&hide_border=true" alt="GitHub streak stats" />
+</div>
+
+<br/>
+
+<div align="center">
+
+Bring the messy business problem. I'll help shape the architecture, delivery plan, and team.
+
+### [Work with me →](https://asif.engineer)
+
+</div>
